@@ -10,7 +10,6 @@ export default function HeroText() {
           <span className="hero__gdgc">gdgc</span>
           <span className="hero__dot" aria-hidden="true"></span>
         </h1>
-        <p className="hero__sub">VIT BHOPAL</p>
       </div>
 
       {/* Bottom-left location (clickable, opens Google Maps) */}
@@ -29,7 +28,7 @@ export default function HeroText() {
         </span>
 
         <span className="hero__location-text">
-          <span className="hero__location-name">VIT Bhopal, India</span>
+          <span className="hero__location-name">VIT Bhopal</span>
           <span className="hero__location-coords">23°04′37″N 76°51′04″E</span>
         </span>
       </a>
