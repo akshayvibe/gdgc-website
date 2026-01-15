@@ -27,11 +27,15 @@ export default function HeroText() {
                 <img src={learn} alt="" className="learn" />
                 <img src={build} alt="" className="build" />
 
-                <div className="hero-building" role="img" aria-label="VIT Bhopal Building">
+                <div
+                    className="hero-building"
+                    role="img"
+                    aria-label="VIT Bhopal Building"
+                >
                     <img
                         src={building}
                         alt="VIT Bhopal Building"
-                        className="block mx-auto max-w-[110%] max-h-full w-auto h-auto translate-y-9"
+                        className="block w-auto max-w-[110%] object-contain translate-y-6 h-[400px] lg:h-[550px] xl:h-[600px] 2xl:h-[750px] max-h-[80vh]"
                     />
                 </div>
             </section>
@@ -39,9 +43,16 @@ export default function HeroText() {
             <section className="hero" aria-label="Site hero">
                 <div className="hero__inner">
                     <h1 className="hero__heading">
-                        <span className="hero__we">we are</span>{" "}
-                        <span className="hero__gdgc">gdgc</span>
-                        <span className="hero__dot" aria-hidden="true"></span>
+                        <span className="hero__we md:-translate-y-[20px] lg:-translate-y-[60px] x">
+                            we are
+                        </span>{" "}
+                        <span className="hero__gdgc md:-translate-y-[20px] lg:-translate-y-[60px]">
+                            gdgc
+                        </span>
+                        <span
+                            className="hero__dot md:-translate-y-[20px] lg:-translate-y-[60px]"
+                            aria-hidden="true"
+                        ></span>
                     </h1>
                 </div>
 
@@ -71,10 +82,7 @@ export default function HeroText() {
                 <div className="hero__cta">
                     <Button className="hero__cta-button w-45 h-11 px-8">
                         <ExternalLink color="white" />
-                        <Link
-                            to="/join"
-                            className="inline text-xl ml-2"
-                        >
+                        <Link to="/join" className="inline text-xl ml-2">
                             Join Us 🚀
                         </Link>
                     </Button>
