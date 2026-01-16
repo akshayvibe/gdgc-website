@@ -40,14 +40,14 @@ export default function HeroText() {
             <section className="hero" aria-label="Site hero">
                 <div className="hero__inner">
                     <h1 className="hero__heading">
-                        <span className="hero__we md:-translate-y-[20px] lg:-translate-y-[60px] x">
+                        <span className="hero__we md:-translate-y-[20px] lg:-translate-y-[70px]">
                             we are
                         </span>{" "}
-                        <span className="hero__gdgc md:-translate-y-[20px] lg:-translate-y-[60px]">
+                        <span className="hero__gdgc md:-translate-y-[20px] lg:-translate-y-[70px]">
                             gdgc
                         </span>
                         <span
-                            className="hero__dot md:-translate-y-[20px] lg:-translate-y-[60px]"
+                            className="hero__dot md:-translate-y-[20px] lg:-translate-y-[70px]"
                             aria-hidden="true"
                         ></span>
                     </h1>
@@ -77,7 +77,7 @@ export default function HeroText() {
                 </a>
 
                 {/* Bottom-right brand (logo + stacked text) */}
-                <div className="hero__brand" aria-hidden="true">
+                <div className="hero__brand mb-2.5" aria-hidden="true">
                     <img
                         src="/GDG Logo.svg"
                         alt="GDG logo"

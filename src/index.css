@@ -203,10 +203,10 @@
         @apply absolute w-[150px] h-auto top-[7%] left-[17%] opacity-90 z-10;
     }
     .learn {    
-        @apply absolute w-[120px] h-auto bottom-[10%] left-[5%] opacity-95 z-10 -translate-y-[250px];
+        @apply absolute w-[120px] h-auto -bottom-[1%] left-[5%] opacity-95 z-10 -translate-y-[250px];
     }
     .build {
-        @apply absolute w-[130px] h-auto bottom-[10%] right-[3%] opacity-95 z-10 -translate-y-[250px];
+        @apply absolute w-[130px] h-auto -bottom-[1%] right-[3%] opacity-95 z-10 -translate-y-[250px];
     }
     .advitya1 {
         @apply absolute w-[100px] h-auto bottom-[5%] right-0 opacity-95 z-10 -translate-y-[470px];
