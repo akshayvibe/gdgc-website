@@ -8,10 +8,8 @@ import learn from "@/assets/learn.svg";
 import build from "@/assets/build.png";
 import gdgLogo from "@/assets/GDG Logo.svg";
 
-import { Link } from "react-router-dom";
 import "@/shadcn/styles/neobrutalism.css";
-import { Button } from "@/shadcn/ui/button.jsx";
-import { ExternalLink, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 
 export default function HeroSectionDesktop() {
   return (
@@ -121,14 +119,6 @@ export default function HeroSectionDesktop() {
               17.3616° N, 78.4747° E
             </span>
           </a>
-
-          {/* Join button */}
-          <div className="absolute left-1/2 -translate-x-1/2 bottom-2">
-            <Button className="h-11 w-36 text-base">
-              <ExternalLink className="mr-2 h-5 w-5" />
-              <Link to="/join">Join Us 🚀</Link>
-            </Button>
-          </div>
 
           {/* Logo */}
           <div className="flex items-center gap-2">
