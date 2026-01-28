@@ -13,7 +13,6 @@ import {
     CollapsibleContent,
     CollapsibleTrigger,
 } from "@/shadcn/ui/collapsible";
-import AboutUs from "../AboutUs/AboutUs";
 
 const navItems = [
     {

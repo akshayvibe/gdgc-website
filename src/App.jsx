@@ -19,7 +19,6 @@ function ScrollToTop() {
     return null;
 }
 
-
 function App() {
     const [showSplash, setShowSplash] = useState(true);
 
