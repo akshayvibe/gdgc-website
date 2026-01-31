@@ -59,12 +59,22 @@ function DomainBlogs({ blogs, domainColor }) {
                         <div className="flex items-center justify-between pt-4 border-t border-border">
                             <div className="flex items-center gap-2.5">
                                 <div
-                                    className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold"
+                                    className="w-16 h-16 rounded-full overflow-hidden"
                                     style={{
                                         backgroundColor: `${domainColor}30`,
                                     }}
                                 >
-                                    {blog.author.charAt(0)}
+                                    {blog.authorAvatar ? (
+                                        <img
+                                            src={blog.authorAvatar}
+                                            alt={`${blog.author} avatar`}
+                                            className="w-16 h-16 object-cover"
+                                        />
+                                    ) : (
+                                        <div className="w-full h-full flex items-center justify-center text-sm font-semibold">
+                                            {blog.author.charAt(0)}
+                                        </div>
+                                    )}
                                 </div>
                                 <span className="text-sm font-medium text-foreground">
                                     {blog.author}

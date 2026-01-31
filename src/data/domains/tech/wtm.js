@@ -31,7 +31,7 @@ const wtmDomain = {
             title: "WTM Mentorship Program",
             description:
                 "Structured mentorship program connecting women in tech with industry experts.",
-            image: "/projects/wtm-mentorship.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Community", "Mentorship", "Career Growth"],
             githubUrl: null,
             liveUrl: "https://wtm.gdgc.dev/mentorship",
@@ -42,7 +42,7 @@ const wtmDomain = {
             title: "Tech Talk Series",
             description:
                 "Monthly speaker series featuring women leaders in technology.",
-            image: "/projects/tech-talks.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Events", "Networking", "Learning"],
             githubUrl: null,
             liveUrl: "https://wtm.gdgc.dev/talks",
@@ -56,7 +56,7 @@ const wtmDomain = {
             excerpt:
                 "Stories and strategies from women who are making an impact in technology.",
             author: "Ananya Krishnan",
-            authorAvatar: "/avatars/ananya.jpg",
+            authorAvatar: "https://placehold.co/128x128",
             date: "2025-12-01",
             readTime: "7 min read",
             url: "/blogs/breaking-barriers",
@@ -85,7 +85,7 @@ const wtmDomain = {
         lead: {
             name: "Ananya Krishnan",
             role: "Women Techmakers Lead",
-            avatar: "/team/ananya.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Passionate about creating inclusive spaces for women in technology.",
             linkedin: "https://linkedin.com/in/ananyakrishnan",
             github: "https://github.com/ananyakrishnan",
@@ -94,7 +94,7 @@ const wtmDomain = {
         coLead: {
             name: "Anand Patel",
             role: "WTM Co-Lead",
-            avatar: "/team/anand.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Community organizer and developer advocate focused on outreach.",
             linkedin: "https://linkedin.com/in/anandpatel",
             github: "https://github.com/anandpatel",
@@ -104,14 +104,14 @@ const wtmDomain = {
             {
                 name: "Divya Menon",
                 role: "Community Coordinator",
-                avatar: "/team/divya.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/divyamenon",
                 github: "https://github.com/divyamenon",
             },
             {
                 name: "Riya Bansal",
                 role: "Events Coordinator",
-                avatar: "/team/riya.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/riyabansal",
                 github: "https://github.com/riyabansal",
             },

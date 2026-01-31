@@ -39,7 +39,7 @@ const socialMediaDomain = {
             title: "GDGC Social Media Revamp",
             description:
                 "Complete overhaul of social media presence across all platforms.",
-            image: "/projects/social-revamp.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Strategy", "Content", "Analytics"],
             githubUrl: null,
             liveUrl: "https://instagram.com/gdgc",
@@ -50,7 +50,7 @@ const socialMediaDomain = {
             title: "Newsletter Campaign",
             description:
                 "Weekly newsletter keeping the community informed and engaged.",
-            image: "/projects/newsletter.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Email Marketing", "Content", "Engagement"],
             githubUrl: null,
             liveUrl: null,
@@ -64,7 +64,7 @@ const socialMediaDomain = {
             excerpt:
                 "Strategies for growing and engaging a tech community online.",
             author: "Priyanka Roy",
-            authorAvatar: "/avatars/priyanka.jpg",
+            authorAvatar: "https://placehold.co/128x128",
             date: "2025-12-08",
             readTime: "6 min read",
             url: "/blogs/social-media-community",
@@ -84,7 +84,7 @@ const socialMediaDomain = {
         lead: {
             name: "Priyanka Roy",
             role: "Marketing Lead",
-            avatar: "/team/priyanka.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Digital marketing specialist with a passion for community building.",
             linkedin: "https://linkedin.com/in/priyankaroy",
             email: "priyanka@gdgc.dev",
@@ -92,7 +92,7 @@ const socialMediaDomain = {
         coLead: {
             name: "Rhea Gupta",
             role: "Social Media Co-Lead",
-            avatar: "/team/rhea.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Content strategist and community manager focused on growth.",
             linkedin: "https://linkedin.com/in/rheagupta",
             github: "",
@@ -102,13 +102,13 @@ const socialMediaDomain = {
             {
                 name: "Ankit Verma",
                 role: "Social Media Manager",
-                avatar: "/team/ankit.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/ankitverma",
             },
             {
                 name: "Megha Sharma",
                 role: "Content Strategist",
-                avatar: "/team/megha.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/meghasharma",
             },
         ],

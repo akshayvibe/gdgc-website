@@ -32,7 +32,7 @@ const blockchainDomain = {
             title: "GDGC NFT Collection",
             description:
                 "Exclusive NFT collection for community members and event participants.",
-            image: "/projects/nft-collection.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Solidity", "IPFS", "React"],
             githubUrl: "https://github.com/gdgc/nft-collection",
             liveUrl: "https://nft.gdgc.dev",
@@ -43,7 +43,7 @@ const blockchainDomain = {
             title: "Decentralized Voting System",
             description:
                 "Transparent and secure voting system using blockchain technology.",
-            image: "/projects/voting-dapp.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Solidity", "Hardhat", "Next.js"],
             githubUrl: "https://github.com/gdgc/voting-dapp",
             liveUrl: null,
@@ -57,7 +57,7 @@ const blockchainDomain = {
             excerpt:
                 "A beginner's guide to building decentralized applications.",
             author: "Karan Malhotra",
-            authorAvatar: "/avatars/karan.jpg",
+            authorAvatar: "https://placehold.co/128x128",
             date: "2025-12-05",
             readTime: "9 min read",
             url: "/blogs/web3-getting-started",
@@ -85,7 +85,7 @@ const blockchainDomain = {
         lead: {
             name: "Karan Malhotra",
             role: "Blockchain Lead",
-            avatar: "/team/karan.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Web3 developer building the future of decentralized applications.",
             linkedin: "https://linkedin.com/in/karanmalhotra",
             github: "https://github.com/karanmalhotra",
@@ -94,7 +94,7 @@ const blockchainDomain = {
         coLead: {
             name: "Nisha Kapoor",
             role: "Blockchain Co-Lead",
-            avatar: "/team/nisha.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Blockchain developer with a focus on smart contracts and security.",
             linkedin: "https://linkedin.com/in/nishakapoor",
             github: "https://github.com/nishakapoor",
@@ -104,7 +104,7 @@ const blockchainDomain = {
             {
                 name: "Shruti Kapoor",
                 role: "Smart Contract Developer",
-                avatar: "/team/shruti.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/shrutikapoor",
                 github: "https://github.com/shrutikapoor",
             },

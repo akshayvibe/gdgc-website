@@ -32,7 +32,7 @@ const mlDomain = {
             title: "Sentiment Analysis Tool",
             description:
                 "NLP-based tool for analyzing sentiment in social media posts.",
-            image: "/projects/sentiment-tool.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Python", "TensorFlow", "BERT"],
             githubUrl: "https://github.com/gdgc/sentiment-analysis",
             liveUrl: "https://sentiment.gdgc.dev",
@@ -43,7 +43,7 @@ const mlDomain = {
             title: "Image Classification API",
             description:
                 "REST API for classifying images using deep learning models.",
-            image: "/projects/image-classifier.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Python", "FastAPI", "PyTorch"],
             githubUrl: "https://github.com/gdgc/image-classifier",
             liveUrl: null,
@@ -57,7 +57,7 @@ const mlDomain = {
             excerpt:
                 "Understanding the fundamentals of neural networks and deep learning.",
             author: "Dr. Meera Iyer",
-            authorAvatar: "/avatars/meera.jpg",
+            authorAvatar: "https://placehold.co/128x128",
             date: "2025-11-25",
             readTime: "12 min read",
             url: "/blogs/neural-networks-intro",
@@ -84,7 +84,7 @@ const mlDomain = {
         lead: {
             name: "Dr. Meera Iyer",
             role: "Machine Learning Lead",
-            avatar: "/team/meera.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "PhD researcher in AI with focus on NLP and computer vision.",
             linkedin: "https://linkedin.com/in/meeraiyer",
             github: "https://github.com/meeraiyer",
@@ -93,7 +93,7 @@ const mlDomain = {
         coLead: {
             name: "Karan Mehta",
             role: "Machine Learning Co-Lead",
-            avatar: "/team/karan.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "ML engineer working on model deployment and MLOps.",
             linkedin: "https://linkedin.com/in/karanmehta",
             github: "https://github.com/karanmehta",
@@ -103,14 +103,14 @@ const mlDomain = {
             {
                 name: "Aditya Sharma",
                 role: "ML Engineer",
-                avatar: "/team/aditya.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/adityasharma",
                 github: "https://github.com/adityasharma",
             },
             {
                 name: "Pooja Nair",
                 role: "Data Scientist",
-                avatar: "/team/pooja.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/poojanair",
                 github: "https://github.com/poojanair",
             },

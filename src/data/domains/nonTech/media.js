@@ -32,7 +32,7 @@ const mediaDomain = {
             title: "GDGC Documentary",
             description:
                 "Short documentary showcasing the community's impact and journey.",
-            image: "/projects/documentary.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Videography", "Editing", "Storytelling"],
             githubUrl: null,
             liveUrl: "https://youtube.com/gdgc",
@@ -42,7 +42,7 @@ const mediaDomain = {
             id: 2,
             title: "Event Highlights",
             description: "Professional coverage of all community events.",
-            image: "/projects/event-highlights.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Photography", "Videography", "Editing"],
             githubUrl: null,
             liveUrl: null,
@@ -56,7 +56,7 @@ const mediaDomain = {
             excerpt:
                 "Tips and techniques for photographing tech conferences and meetups.",
             author: "Aryan Khanna",
-            authorAvatar: "/avatars/aryan.jpg",
+            authorAvatar: "https://placehold.co/128x128",
             date: "2025-12-12",
             readTime: "5 min read",
             url: "/blogs/event-photography",
@@ -76,7 +76,7 @@ const mediaDomain = {
         lead: {
             name: "Aryan Khanna",
             role: "Media Lead",
-            avatar: "/team/aryan.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Professional videographer and photographer specializing in tech events.",
             linkedin: "https://linkedin.com/in/aryankhanna",
             email: "aryan@gdgc.dev",
@@ -84,7 +84,7 @@ const mediaDomain = {
         coLead: {
             name: "Mitali Das",
             role: "Media Co-Lead",
-            avatar: "/team/mitali.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Videographer and editor working on event coverage and tutorials.",
             linkedin: "https://linkedin.com/in/mitalidas",
             github: "",
@@ -94,13 +94,13 @@ const mediaDomain = {
             {
                 name: "Simran Kaur",
                 role: "Photographer",
-                avatar: "/team/simran.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/simrankaur",
             },
             {
                 name: "Harsh Pandey",
                 role: "Video Editor",
-                avatar: "/team/harsh.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/harshpandey",
             },
         ],

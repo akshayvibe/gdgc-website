@@ -38,7 +38,7 @@ const eventsDomain = {
             title: "DevFest 2025",
             description:
                 "Annual flagship event featuring tech talks, workshops, and networking.",
-            image: "/projects/devfest-2025.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Event Management", "Workshops", "Networking"],
             githubUrl: null,
             liveUrl: "https://devfest.gdgc.dev",
@@ -49,7 +49,7 @@ const eventsDomain = {
             title: "Weekly Tech Talks",
             description:
                 "Regular knowledge-sharing sessions within the community.",
-            image: "/projects/tech-talks.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Workshops", "Learning", "Community"],
             githubUrl: null,
             liveUrl: null,
@@ -63,7 +63,7 @@ const eventsDomain = {
             excerpt:
                 "A comprehensive guide to organizing tech events from start to finish.",
             author: "Sanjay Patel",
-            authorAvatar: "/avatars/sanjay.jpg",
+            authorAvatar: "https://placehold.co/128x128",
             date: "2025-11-15",
             readTime: "8 min read",
             url: "/blogs/event-planning-guide",
@@ -84,7 +84,7 @@ const eventsDomain = {
         lead: {
             name: "Sanjay Patel",
             role: "Event Management Lead",
-            avatar: "/team/sanjay.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Expert in organizing large-scale tech events and community gatherings.",
             linkedin: "https://linkedin.com/in/sanjaypatel",
             email: "sanjay@gdgc.dev",
@@ -92,7 +92,7 @@ const eventsDomain = {
         coLead: {
             name: "Sohail Khan",
             role: "Events Co-Lead",
-            avatar: "/team/sohail.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Events coordinator focusing on logistics and partnerships.",
             linkedin: "https://linkedin.com/in/sohailkhan",
             github: "",
@@ -102,13 +102,13 @@ const eventsDomain = {
             {
                 name: "Nisha Agarwal",
                 role: "Events Coordinator",
-                avatar: "/team/nisha.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/nishaagarwal",
             },
             {
                 name: "Raj Kumar",
                 role: "Logistics Manager",
-                avatar: "/team/raj.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/rajkumar",
             },
         ],

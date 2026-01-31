@@ -33,7 +33,7 @@ const webDevDomain = {
             title: "GDGC Community Website",
             description:
                 "Official website for the Google Developer Groups on Campus community.",
-            image: "/projects/gdgc-website.png",
+            image: "https://placehold.co/400x400",
             technologies: ["React", "Tailwind CSS", "Vite"],
             githubUrl: "https://github.com/gdgc/website",
             liveUrl: "https://gdgc.dev",
@@ -44,7 +44,7 @@ const webDevDomain = {
             title: "Event Management System",
             description:
                 "A comprehensive platform for managing community events and registrations.",
-            image: "/projects/event-system.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Next.js", "PostgreSQL", "Prisma"],
             githubUrl: "https://github.com/gdgc/events",
             liveUrl: null,
@@ -55,7 +55,7 @@ const webDevDomain = {
             title: "Resource Hub",
             description:
                 "Centralized platform for learning resources and documentation.",
-            image: "/projects/resource-hub.png",
+            image: "https://placehold.co/400x400",
             technologies: ["React", "Firebase", "Material UI"],
             githubUrl: "https://github.com/gdgc/resources",
             liveUrl: "https://resources.gdgc.dev",
@@ -69,7 +69,7 @@ const webDevDomain = {
             excerpt:
                 "Explore the new features and improvements in React 19 and how to migrate your projects.",
             author: "Priya Sharma",
-            authorAvatar: "/avatars/priya.jpg",
+            authorAvatar: "https://placehold.co/128x128",
             date: "2025-12-15",
             readTime: "8 min read",
             url: "/blogs/react-19-guide",
@@ -81,7 +81,7 @@ const webDevDomain = {
             excerpt:
                 "Learn the best practices for creating web apps that everyone can use.",
             author: "Amit Kumar",
-            authorAvatar: "/avatars/amit.jpg",
+            authorAvatar: "https://placehold.co/128x128",
             date: "2025-11-20",
             readTime: "6 min read",
             url: "/blogs/accessibility-guide",
@@ -117,7 +117,7 @@ const webDevDomain = {
         lead: {
             name: "Rahul Verma",
             role: "Web Development Lead",
-            avatar: "/team/rahul.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Full-stack developer passionate about building scalable web applications.",
             linkedin: "https://linkedin.com/in/rahulverma",
             github: "https://github.com/rahulverma",
@@ -126,7 +126,7 @@ const webDevDomain = {
         coLead: {
             name: "Priya Sharma",
             role: "Web Development Co-Lead",
-            avatar: "/team/priya.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Frontend engineer and mentor, focusing on accessibility and performance.",
             linkedin: "https://linkedin.com/in/priyasharma",
             github: "https://github.com/priyasharma",
@@ -136,21 +136,21 @@ const webDevDomain = {
             {
                 name: "Sneha Patel",
                 role: "Frontend Developer",
-                avatar: "/team/sneha.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/snehapatel",
                 github: "https://github.com/snehapatel",
             },
             {
                 name: "Arjun Singh",
                 role: "Backend Developer",
-                avatar: "/team/arjun.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/arjunsingh",
                 github: "https://github.com/arjunsingh",
             },
             {
                 name: "Kavya Reddy",
                 role: "Full Stack Developer",
-                avatar: "/team/kavya.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/kavyareddy",
                 github: "https://github.com/kavyareddy",
             },

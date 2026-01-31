@@ -47,15 +47,25 @@ function DomainProjects({ projects, domainColor }) {
                             </div>
                         )}
                         <div className="aspect-video overflow-hidden">
-                            <div
-                                className="w-full h-full flex items-center justify-center"
-                                style={{ backgroundColor: `${domainColor}15` }}
-                            >
-                                <FolderOpen
-                                    className="w-12 h-12 opacity-50"
-                                    style={{ color: domainColor }}
+                            {project.image ? (
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="w-full h-full object-cover"
                                 />
-                            </div>
+                            ) : (
+                                <div
+                                    className="w-full h-full flex items-center justify-center"
+                                    style={{
+                                        backgroundColor: `${domainColor}15`,
+                                    }}
+                                >
+                                    <FolderOpen
+                                        className="w-12 h-12 opacity-50"
+                                        style={{ color: domainColor }}
+                                    />
+                                </div>
+                            )}
                         </div>
                         <div className="p-5">
                             <h3 className="text-lg font-semibold text-foreground mb-2">

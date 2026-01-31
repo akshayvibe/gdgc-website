@@ -20,7 +20,7 @@ const androidDomain = {
             title: "GDGC Events App",
             description:
                 "Mobile app for tracking and registering for GDGC events.",
-            image: "/projects/gdgc-app.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Kotlin", "Jetpack Compose", "Firebase"],
             githubUrl: "https://github.com/gdgc/android-app",
             liveUrl:
@@ -32,7 +32,7 @@ const androidDomain = {
             title: "Study Buddy",
             description:
                 "A collaborative study app for students with shared notes and schedules.",
-            image: "/projects/study-buddy.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Kotlin", "Room", "Material Design 3"],
             githubUrl: "https://github.com/gdgc/study-buddy",
             liveUrl: null,
@@ -46,7 +46,7 @@ const androidDomain = {
             excerpt:
                 "A comprehensive guide to building beautiful UIs with Jetpack Compose.",
             author: "Vikram Joshi",
-            authorAvatar: "/avatars/vikram.jpg",
+            authorAvatar: "https://placehold.co/128x128",
             date: "2025-12-10",
             readTime: "10 min read",
             url: "/blogs/jetpack-compose-guide",
@@ -74,7 +74,7 @@ const androidDomain = {
         lead: {
             name: "Vikram Joshi",
             role: "Android Development Lead",
-            avatar: "/team/vikram.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Android developer with 3+ years of experience in building production apps.",
             linkedin: "https://linkedin.com/in/vikramjoshi",
             github: "https://github.com/vikramjoshi",
@@ -83,7 +83,7 @@ const androidDomain = {
         coLead: {
             name: "Asha Rao",
             role: "Android Development Co-Lead",
-            avatar: "/team/asha.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Kotlin enthusiast and UI/UX-focused Android engineer.",
             linkedin: "https://linkedin.com/in/asharao",
             github: "https://github.com/asharao",
@@ -93,14 +93,14 @@ const androidDomain = {
             {
                 name: "Neha Gupta",
                 role: "Android Developer",
-                avatar: "/team/neha.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/nehagupta",
                 github: "https://github.com/nehagupta",
             },
             {
                 name: "Rohan Mehta",
                 role: "Android Developer",
-                avatar: "/team/rohan.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/rohanmehta",
                 github: "https://github.com/rohanmehta",
             },

@@ -32,7 +32,7 @@ const designDomain = {
             title: "GDGC Brand Guidelines",
             description:
                 "Comprehensive brand identity system for the community.",
-            image: "/projects/brand-guidelines.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Branding", "Design System", "Guidelines"],
             githubUrl: null,
             liveUrl: "https://brand.gdgc.dev",
@@ -43,7 +43,7 @@ const designDomain = {
             title: "Event Collateral Design",
             description:
                 "Visual assets for all community events and activities.",
-            image: "/projects/event-collateral.png",
+            image: "https://placehold.co/400x400",
             technologies: ["Graphic Design", "Print", "Digital"],
             githubUrl: null,
             liveUrl: null,
@@ -57,7 +57,7 @@ const designDomain = {
             excerpt:
                 "Creating visual content that resonates with technical audiences.",
             author: "Tanya Gupta",
-            authorAvatar: "/avatars/tanya.jpg",
+            authorAvatar: "https://placehold.co/128x128",
             date: "2025-11-28",
             readTime: "7 min read",
             url: "/blogs/design-for-developers",
@@ -86,7 +86,7 @@ const designDomain = {
         lead: {
             name: "Tanya Gupta",
             role: "Design Lead",
-            avatar: "/team/tanya.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Visual designer creating impactful designs for tech communities.",
             linkedin: "https://linkedin.com/in/tanyagupta",
             email: "tanya@gdgc.dev",
@@ -94,7 +94,7 @@ const designDomain = {
         coLead: {
             name: "Divya Iyer",
             role: "Design Co-Lead",
-            avatar: "/team/divya.jpg",
+            avatar: "https://placehold.co/128x128",
             bio: "Product designer focused on UX systems and prototyping.",
             linkedin: "https://linkedin.com/in/divyaiyer",
             github: "",
@@ -104,13 +104,13 @@ const designDomain = {
             {
                 name: "Vivek Nair",
                 role: "UI/UX Designer",
-                avatar: "/team/vivek.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/viveknair",
             },
             {
                 name: "Ishita Das",
                 role: "Content Writer",
-                avatar: "/team/ishita.jpg",
+                avatar: "https://placehold.co/128x128",
                 linkedin: "https://linkedin.com/in/ishitadas",
             },
         ],
