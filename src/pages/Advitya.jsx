@@ -1,8 +1,12 @@
 import Home from "@/Advitya26Components/Home";
+import { GlobalNavbar } from "@/Advitya26Components/Navbar";
 
 function Advitya() {
     return (
-        <Home />
+        <>
+            <GlobalNavbar />
+            
+        </>
     );
 }
 
