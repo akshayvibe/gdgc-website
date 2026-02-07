@@ -212,9 +212,9 @@ export default function FAQ() {
 
   return (
     <div className="w-full min-h-screen bg-[#0a0a0a] relative" style={{ fontFamily: "'Poppins', sans-serif" }}>
-      {/* Grid Background - Fixed */}
+      {/* Grid Background - Only for FAQ section */}
       <div 
-        className="fixed inset-0 z-0"
+        className="absolute inset-0 z-0"
         style={{
           backgroundImage: `
             linear-gradient(to right, rgba(50,50,50,0.6) 1px, transparent 1px),
