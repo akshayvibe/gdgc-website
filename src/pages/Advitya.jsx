@@ -10,6 +10,7 @@ import ChoosePathCard from "@/Advitya26Components/ChoosePathCardDir/ChoosePathCa
 import ChoosePathCardMobile from "@/Advitya26Components/ChoosePathCardDir/ChoosePathCardMobile";
 import FAQ from "@/Advitya26Components/FAQ";
 import AdvityaGallery3D from "@/Advitya26Components/AdvityaGallery3D";
+import AdvityaFooter from "@/Advitya26Components/AdvityaFooter";
 
 import "@/Advitya26Components/AdvityaMain.css";
 
@@ -102,6 +103,9 @@ function Advitya() {
                 >
                     <AdvityaGallery3D />
                 </section>
+
+                {/* Footer Section */}
+                <AdvityaFooter />
             </div>
         </>
     );
