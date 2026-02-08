@@ -7,6 +7,7 @@ import planet from "@/assets/Planets_Image.svg";
 import learn from "@/assets/learn.svg";
 import build from "@/assets/build.png";
 import gdgLogo from "@/assets/GDG Logo.svg";
+import { motion } from "motion/react";
 
 import "@/shadcn/styles/neobrutalism.css";
 import { MapPin } from "lucide-react";
@@ -18,51 +19,103 @@ export default function HeroSectionDesktop() {
       className="relative w-full min-h-[calc(100vh-4rem)] overflow-x-hidden bg-white text-black"
     >
       {/* Decorative elements */}
-      <img
+      <motion.img
         src={cloudLeft}
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute left-[2%] top-[6%] w-44 lg:w-48 xl:w-52 opacity-90"
+        initial={{ x: 0 }}
+        animate={{x:['0vw', "80vw", "0vw"]}}
+        transition={{
+          duration:50,
+          repeat: Infinity,
+          repeatType:"reverse",
+          ease:"linear"
+        }}
       />
 
-      <img
+      <motion.img
         src={cloudRight}
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute right-[2%] top-[22%] w-24 lg:w-28 xl:w-32 opacity-90"
+        initial={{ x: 0 }}
+        animate={{x: ["0vw", "-80vw", "0vw"]}}
+        transition={{
+          duration: 60,
+          repeat: Infinity,
+          repeatType: "reverse",
+          ease:"linear",
+        }}
       />
 
-      <img
+      <motion.img
         src={planet}
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute right-[6%] top-[5%] w-16 xl:w-20 opacity-95"
+        animate={{ y: [0, -15, 0] }}
+        transition={{
+          duration: 4,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
       />
 
-      <img
+      <motion.img
         src={kite1}
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute left-[5%] top-[20%] w-24 xl:w-32 opacity-95"
+        animate={{ y: [0, 20, 0], x: [0, 10, 0] }}
+        transition={{
+          duration: 5,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
       />
 
-      <img
+      <motion.img
         src={kite2}
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute right-[18%] top-[10%] w-24 xl:w-32 opacity-95"
+        animate={{ y: [0, -15, 0], x: [0, -12, 0] }}
+        transition={{
+          duration: 6,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
       />
 
-      <img
+      <motion.img
         src={learn}
         alt="#learn"
         className="pointer-events-none absolute left-[8%] top-[42%] -translate-y-1/2 w-20 xl:w-28 -rotate-12"
+        animate={{
+          y: [0, -20, 0],
+          x: [0, 8, 0],
+        }}
+        transition={{
+          duration: 4.5,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
       />
 
-      <img
+      <motion.img
         src={build}
         alt="#build"
         className="pointer-events-none absolute right-[8%] top-[42%] -translate-y-1/2 w-20 xl:w-28 rotate-12"
+        animate={{
+          y: [0, -20, 0],
+          x: [0, -8, 0],
+        }}
+        transition={{
+          duration: 4.5,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
       />
 
       {/* Main content */}
