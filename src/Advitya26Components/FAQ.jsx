@@ -167,7 +167,7 @@ export default function FAQ() {
   };
 
   return (
-    <div className="w-screen h-auto md:h-screen bg-[#0a0a0a] relative flex flex-col overflow-hidden isolate" style={{ fontFamily: "'Poppins', sans-serif" }}>
+    <div className="w-screen min-h-screen bg-[#0a0a0a] relative flex flex-col isolate" style={{ fontFamily: "'Poppins', sans-serif" }}>
       {/* Grid Background */}
       <div
         className="absolute inset-0 z-0"
@@ -203,11 +203,10 @@ export default function FAQ() {
               <button
                 key={tab.id}
                 onClick={() => handleTabClick(tab.id)}
-                className={`px-3 md:px-6 py-1.5 md:py-2.5 rounded-full text-xs md:text-[18px] font-medium transition-all duration-300 border whitespace-nowrap ${
-                  activeTab === tab.id
-                    ? 'bg-white text-black border-white'
-                    : 'bg-transparent text-white border-white/50 hover:border-white'
-                }`}
+                className={`px-3 md:px-6 py-1.5 md:py-2.5 rounded-full text-xs md:text-[18px] font-medium transition-all duration-300 border whitespace-nowrap ${activeTab === tab.id
+                  ? 'bg-white text-black border-white'
+                  : 'bg-transparent text-white border-white/50 hover:border-white'
+                  }`}
               >
                 {tab.label}
               </button>
@@ -217,7 +216,7 @@ export default function FAQ() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 px-4 md:px-28 pt-2 pb-2 md:pb-4 flex-1 overflow-y-auto">
+      <div className="relative z-10 px-4 md:px-28 pt-2 pb-2 md:pb-4">
         <div className="space-y-2 md:space-y-4">
           <h2 className="text-white text-lg md:text-2xl font-medium mb-3 md:mb-4 uppercase">
             {activeTab}
@@ -230,3 +229,4 @@ export default function FAQ() {
     </div>
   );
 }
+
