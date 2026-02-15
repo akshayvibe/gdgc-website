@@ -128,16 +128,16 @@ function HeroSectionMobile() {
                   ease: "easeInOut",
                 }}
             />
-            <motion.a
+            {/* <motion.a
   href="/advitya"
   className="advitya-flag-mobile"
   animate={{ y: [0, -5, 0] }}
   transition={{ duration: 2.5, repeat: Infinity }}
 >
   advitya
-</motion.a>
+</motion.a> */}
 
-<motion.a
+{/* <motion.a
   href="https://forms.gle/geUHuLxd2PenFN4s8"
   target="_blank"
   rel="noopener noreferrer"
@@ -146,7 +146,7 @@ function HeroSectionMobile() {
   transition={{ duration: 2.5, repeat: Infinity }}
 >
   register
-</motion.a>
+</motion.a> */}
 
 
             {/* this kite is not in design */}
